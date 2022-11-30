@@ -22,4 +22,39 @@
 # p book["language"]
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
-books = [{"title" => "Echo North", "author" => "Joanna Ruth Meyer"}, {"title" => "Gods of Jade and Shadow", "author" => "Silvia Moreno-Garcia"}]
+# books = [
+#   {"title" => "Echo North", "author" => "Joanna Ruth Meyer"}, 
+#   {"title" => "Gods of Jade and Shadow", "author" => "Silvia Moreno-Garcia"}, 
+#   {"title" => "Parable of the Sower", "author" => "Octavia E. Butler"}
+# ]
+# p books[2]["author"]
+
+# 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
+# states = {"Indiana" => "Indianapolis", "Alaska" => "Juneau", "Oregon" => "Salem"}
+# states["Tennessee"] = "Nashville"
+# p states
+
+# 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
+# laptop = {"brand" => "Apple", "model" => "MacBook Air", "year" => 2017}
+# p laptop["brand"]
+# p laptop["model"]
+# p laptop["year"]
+
+# 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+# laptops = [
+#   {"brand" => "Apple", "model" => "MacBook Air"},
+#   {"brand" => "Apple", "model" => "MacBook Pro"},
+#   {"brand" => "Windows", "model" => "Surface"}
+# ]
+# p laptops[1]["model"]
+
+# 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
+# definition = {"surreal" => "having the qualities of surrealism", "seldom" => "not often"}
+# definition["creative"] = "having good imagination or original ideas"
+# p definition
+
+# 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+# shirt = {"brand" => "Nike", "color" => "blue", "size" => "large"} 
+# p shirt["brand"]
+# p shirt["color"]
+# p shirt["size"]
